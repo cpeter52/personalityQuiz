@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personality Quiz</title>
+
+    <style type="text/css">
+
+        .question_img {
+            width: 150px;
+            height: 150px;
+        }
+
+        .question_text {
+            font-weight: bold;
+        }
+
+        #banner {
+            width:500px;
+            height:200px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<img src="img/banner.jpg" id="banner"></img>
+
+<h1>How Geeky you are?</h1>
+
+<h2>Lets find out by answering the following questions:</h2>
+
+<form action="display_result.php" method="post">
+    <img src="img/1.jpg" class="question_img"></img><br>
+    <label class="question_text">Q1: How many video games have you played in the past year?</label><br>
+    <select name="question_1" id="question_1">
+        <option value="Less than 3">
+            Less than 3
+        </option>
+        <option value="3-10">
+            3-10
+        </option>
+        <option value="More than 10">
+            More than 10
+        </option>
+    </select>
+    <br>
+    <hr>
+
+    <br>
+    <label class="question_text">Q2: What type of movies/ TV shows do you like best?</label><br>
+    <select name="question_2" id="question_2">
+        <option value="Romance/ Reality TV">
+            Romance/ Reality TV
+        </option>
+        <option value="Action/ Thriller /Crime">
+            Action/ Thriller /Crime
+        </option>
+        <option value="Drama/ Documentary/Natural Films">
+            Drama/ Documentary/Natural Films
+        </option>
+        <option value="Comedy / Animation">
+            Comedy / Animation
+        </option>
+        <option value="Science Fiction/ Fantasy">
+            Science Fiction/ Fantasy
+        </option>
+    </select>
+    <br>
+    <hr>
+
+    <img src="img/3.jpg" class="question_img"></img><br>
+    <label class="question_text">Q3: Do you know any programming languages?</label><br>
+    <select name="question_3" id="question_3">
+        <option value="Nope">
+            Nope
+        </option>
+        <option value="Only what I studied in school">
+            Only what I studied in school
+        </option>
+        <option value="Of Course!">
+            Of Course!
+        </option>
+    </select>
+    <br>
+    <hr>
+
+    <img src="img/4.jpg" class="question_img"></img><br>
+    <label class="question_text">Q4: Its time to upgrade your mobile phone
+        and you have the budget for it. How do
+        you choose the make and model?</label><br>
+    <select name="question_4" id="question_4">
+        <option value="Get whatever the sales person says is best for my needs">
+            Get whatever the sales person says is best for my needs
+        </option>
+        <option value="Get a model identical or similar to that of my friends">
+            Get a model identical or similar to that of my friends
+        </option>
+        <option value="Ask a friend or read reviews online">
+            Ask a friend or read reviews online
+        </option>
+        <option value="I already know what mobile I want as I follow mobile industry updates">
+            I already know what mobile I want as I follow mobile industry updates
+        </option>
+    </select>
+    <br>
+    <hr>
+
+    <img src="img/5.jpg" class="question_img"></img><br>
+    <label class="question_text">Q5: Which of the following was( or is) your
+        favorite subject in school?</label><br>
+    <select name="question_5" id="question_5">
+        <option value="Ugh. I didn't like ANYTHING in school">
+            Ugh. I didn't like ANYTHING in school
+        </option>
+        <option value="Physical Education">
+            Physical Education
+        </option>
+        <option value="Art Literature or History">
+            Art Literature or History
+        </option>
+        <option value="Computers, Math or Science">
+            Computers, Math or Science
+        </option>
+    </select>
+    <br>
+    <hr>
+
+    <img src="img/6.jpg" class="question_img"></img><br>
+    <label class="question_text">Q6: Your mobile phone has stopped
+        working. What do you do?</label><br>
+    <select name="question_6" id="question_6">
+        <option value="Buy a new one">
+            Buy a new one
+        </option>
+        <option value="Take it to my usual repair shop">
+            Take it to my usual repair shop
+        </option>
+        <option value="Try to fix it myself with some help from the net">
+            Try to fix it myself with some help from the net
+        </option>
+    </select>
+    <br>
+    <hr>
+
+    <br>
+    <label class="question_text">Q7: On a typical Saturday night, you are
+        most likely …</label><br>
+    <select name="question_7" id="question_7">
+        <option value="Out at party or bar">
+            Out at party or bar
+        </option>
+        <option value="Gaming with friends">
+            Gaming with friends
+        </option>
+        <option value="Surfing the net or reading a book">
+            Surfing the net or reading a book
+        </option>
+    </select>
+    <hr>
+    <br>
+    <input type="submit" value="Submit Answers"/>
+    <input type="reset" value="Again!"/>
+</form>
+
+
+
+</body>
+</html>
